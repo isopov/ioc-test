@@ -7,18 +7,10 @@ import javax.inject.Named;
 //purpose (to give a name to the bean), but simply as an analog of the @Component Spring annotation  
 @Named
 public class MainBean {
-
+	@Inject
 	private DependencyBean dep;
 
 	public void requestDep() {
 		dep.doSmth();
 	}
-
-	// Setter is needed only by Pico - Spring and Guice can inject directly to
-	// private field
-	@Inject
-	public void setDep(DependencyBean dep) {
-		this.dep = dep;
-	}
-
 }
