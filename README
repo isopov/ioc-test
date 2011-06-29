@@ -1,0 +1,3 @@
+This is a really simple example of using three DI frameworks: Spring, Guice and PicoContainer.
+Described in blog post here:
+http://moradanen.sopovs.com/2011/06/three-ioc-frameworks-with-jsr-330.html
