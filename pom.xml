@@ -7,7 +7,6 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <artifactId>ioc-test</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>Inversion of control test</name>
-	<!-- test commit -->
   <dependencies>
   		<dependency>
 			<groupId>com.google.inject</groupId>
