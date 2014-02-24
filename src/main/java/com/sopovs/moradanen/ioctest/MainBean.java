@@ -10,7 +10,7 @@ public class MainBean {
 	@Inject
 	private DependencyBean dep;
 
-	public void requestDep() {
-		dep.doSmth();
+	public String requestDep() {
+		return dep.doSmth();
 	}
 }

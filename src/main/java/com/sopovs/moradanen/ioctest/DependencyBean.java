@@ -4,7 +4,10 @@ import javax.inject.Named;
 
 @Named
 public class DependencyBean {
-	public void doSmth() {
-		System.out.println("Hello!");
+    public static final String VALUE = "Hello!";
+
+
+	public String doSmth() {
+		return VALUE;
 	}
 }
